@@ -1,6 +1,12 @@
 #!/bin/bash
 
 echo "
+████████╗██████╗  █████╗ ██╗   ██╗ █████╗ ██╗     ██╗     ███████╗██████╗
+╚══██╔══╝██╔══██╗██╔══██╗██║   ██║██╔══██╗██║     ██║     ██╔════╝██╔══██╗
+   ██║   ██████╔╝███████║██║   ██║███████║██║     ██║     █████╗  ██████╔╝
+   ██║   ██╔═══╝ ██╔══██║╚██╗ ██╔╝██╔══██║██║     ██║     ██╔══╝  ██╔══██╗
+   ██║   ██║     ██║  ██║ ╚████╔╝ ██║  ██║███████╗███████╗███████╗██║  ██║
+   ╚═╝   ╚═╝     ╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
 
           THE CLI TRAVELLER GAME
 
@@ -33,6 +39,10 @@ If you pick the wrong country → Go to prison.
 End Game:
 Successfully reach a destination → Victory.
 Wrong move → Prison or Game Over.
+
+To start Go to the 'Countries' and it will list all the available 'Countries'.
+To see the hints, run cat hint.txt
+
 "
 
 # Start → cat instructions
@@ -42,8 +52,6 @@ Wrong move → Prison or Game Over.
 # Correct flag → Victory :tada:
 # Wrong flag/country twice → Game Over :skull_and_crossbones:
 
-To start Go to the 'Countries' and it will list all the available 'Countries'.
-To see the hints, run cat hints.
 
 
 

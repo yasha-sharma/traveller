@@ -2,7 +2,7 @@
 
 # A simple script to demonstrate the OR operator in Bash.
 
-if [[ -f "Srilanka.txt" || -f "India.txt" ]]; then
+if [[ -f "USA.txt" ]]; then
     echo "win!"
 else
     echo "lose!"
