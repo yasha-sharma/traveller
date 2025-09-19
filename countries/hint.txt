@@ -1,0 +1,7 @@
+
+echo "Some hints to use commands:
+cd to go to Location.
+mv to take documents with you from your correct origin country to the your permitted destination.
+mv to use one lifeline
+"
+

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# A simple script to demonstrate the OR operator in Bash.
+
+if [[ -f "Poland.txt" ]]; then
+    echo "win!"
+else
+    echo "lose!"
+    # The ( sleep 3 && cd ... ) command is fine, but make sure the path is correct
+ 
+fi

@@ -1,0 +1,34 @@
+#!/bin/bash
+
+echo "
+_______                 _ _
+ |__   __|               | (_)
+    | |_ __ __ ___   ____| |_  ___ _ __
+    | | '__/ _` \ \ / / _` | |/ _ \ '__|
+    | | | | (_| |\ V / (_| | |  __/ |
+    |_|_|  \__,_| \_/ \__,_|_|\___|_|
+          THE CLI TRAVELLER GAME
+
+There’s a journey waiting for you in the world of Traveller.
+But beware — not every country welcomes you. Some may even throw you in prison.
+To begin your adventure, you’ll need access to a command line.
+Once you’re ready, clone this repo, or download it as a zip file.
+Open a Terminal, go to the location of the files, and start by reading the 'instructions' below.
+
+Your Mission:
+You are a traveller choosing between 5 countries (CARDS).
+3 countries accept you.
+2 countries throw you in prison.
+
+Rules:
+Choose a country and try to reach it safely.
+Find and take the flag with you.
+If you pick the wrong country or the wrong flag → Go to prison.
+You have one lifeline:
+If correct, you may travel to a second country.
+If incorrect, Game Over.
+
+End Game:
+Successfully collect a flag → Victory.
+Wrong move → Prison or Game Over.
+"

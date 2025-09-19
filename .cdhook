@@ -1,0 +1,52 @@
+#!/bin/bash
+
+echo "
+
+          THE CLI TRAVELLER GAME
+
+There’s a journey waiting for you in the world of Traveller.
+But beware — not every country welcomes you. Some may even throw you in prison.
+To begin your adventure, Start by reading the 'instructions' below.
+
+Your Mission:
+You are a traveller choosing between 5 countries (CARDS).
+3 countries accept you.
+2 countries throw you in prison.
+
+Rules:
+Choose a country and try to reach it safely.
+If you pick the wrong country → Go to prison.
+You have one lifeline:
+If correct, you may travel to a second country.
+If incorrect, Game Over.
+
+Only travellers from Sri Lanka, India to China 
+& Poland to England, 
+USA to Qatar,
+India to Switzerland,
+Australia to Ukraine.
+Choose a country and try to reach it safely.
+
+If you pick the wrong country → Go to prison.
+
+
+End Game:
+Successfully reach a destination → Victory.
+Wrong move → Prison or Game Over.
+"
+
+# Start → cat instructions
+# Explore → ls countries → cat countries/<name>.txt
+# If safe → go to flags/<country>-flag.txt
+# If prison → cat prison.txt → pick another country
+# Correct flag → Victory :tada:
+# Wrong flag/country twice → Game Over :skull_and_crossbones:
+
+To start Go to the 'Countries' and it will list all the available 'Countries'.
+To see the hints, run cat hints.
+
+
+
+
+
+
